@@ -32,6 +32,9 @@
 
                 echo "<h1>Superglobal SERVER</h1>";
                 var_dump($_SERVER);
+
+                echo "<h1>Superglobal GLOBAL</h1>";
+                var_dump($GLOBALS);
             
             ?>
         </pre>
