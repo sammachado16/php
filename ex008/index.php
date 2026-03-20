@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <?php //Dados do formulário retroalimentado
+        $valor1 = $_GET['v1'] ?? 0;
+        $valor2 = $_GET['v2'] ?? 0;
+    ?>
     <main>
-        <form action="<?= $_SERVER['PHP_SELF'] ?>">
+        <form action="<?= $_SERVER['PHP_SELF'] ?>" method="get">
             <label for="v1">Valor 1</label>
             <input type="number" name="v1" id="v1">
             <label for="v2">Valor 2</label>
