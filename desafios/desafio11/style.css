@@ -284,3 +284,7 @@ button > a {
 button > a:hover {
     color: #6952ff;
 }
+
+input[type=range] {
+    padding: 0px;
+}
