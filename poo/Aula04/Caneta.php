@@ -1,7 +1,7 @@
 <?php
 
 class Caneta {
-    private $modelo;
+    private $modelo;    
     private $cor;
     private $ponta;
     private $tampada;
