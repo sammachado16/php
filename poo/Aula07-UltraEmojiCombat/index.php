@@ -12,7 +12,7 @@
             $l[1] = new Lutador("Putscript", "Brasil", 29, 1.68, 57.8, 14, 2, 3);
             $l[2] = new Lutador("SnapShadow", "EUA", 35, 1.65, 80.9, 12, 2, 1);
             
-            $l[2]->empatarLutar();
+            $l[2]->ganharLuta();
             $l[2]->status();
             
         ?>
