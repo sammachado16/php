@@ -10,8 +10,24 @@ class Gafanhoto extends Pessoa {
         $this->totAssistido = 0;
     }
 
-    
     public function assistirMaisUm() {
         $this->totAssistido ++;
     }
+    
+    public function getLogin() {
+        return $this->login;
+    }
+
+    public function getTotAssistido() {
+        return $this->totAssistido;
+    }
+
+    public function setLogin($login): void {
+        $this->login = $login;
+    }
+
+    public function setTotAssistido($totAssistido): void {
+        $this->totAssistido = $totAssistido;
+    }
+
 }
